@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcgDescent.a  CMakeFiles/cgDescent.dir/src/cg_descent.cpp.o
+/usr/bin/ranlib libcgDescent.a

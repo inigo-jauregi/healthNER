@@ -1,0 +1,5 @@
+/home/ijauregi/Desktop/CMCRC/HCRF2.0b/apps/testHCRF/hCRF/cgdescent/CMakeFiles/cgDescent.dir
+/home/ijauregi/Desktop/CMCRC/HCRF2.0b/apps/testHCRF/hCRF/CMakeFiles/hCRF.dir
+/home/ijauregi/Desktop/CMCRC/HCRF2.0b/apps/testHCRF/CMakeFiles/hcrfTest.dir
+/home/ijauregi/Desktop/CMCRC/HCRF2.0b/apps/testHCRF/hCRF/lbfgs/CMakeFiles/lbfgs.dir
+/home/ijauregi/Desktop/CMCRC/HCRF2.0b/apps/testHCRF/hCRF/uncOptim/CMakeFiles/uncoptim.dir

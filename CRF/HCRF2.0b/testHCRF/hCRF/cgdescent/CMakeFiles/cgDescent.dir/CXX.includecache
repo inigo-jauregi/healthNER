@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ijauregi/Desktop/CMCRC/HCRF2.0b/libs/3rdParty/cgDescent/include/cg_descent.h
+math.h
+-
+limits.h
+-
+float.h
+-
+string.h
+-
+ctype.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/home/ijauregi/Desktop/CMCRC/HCRF2.0b/libs/3rdParty/cgDescent/src/cg_descent.cpp
+cg_descent.h
+/home/ijauregi/Desktop/CMCRC/HCRF2.0b/libs/3rdParty/cgDescent/src/cg_descent.h
+

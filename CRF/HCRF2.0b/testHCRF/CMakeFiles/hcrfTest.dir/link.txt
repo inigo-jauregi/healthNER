@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -pg    CMakeFiles/hcrfTest.dir/src/main.cpp.o  -o hcrfTest -rdynamic hCRF/libhCRF.a hCRF/cgdescent/libcgDescent.a hCRF/lbfgs/liblbfgs.a hCRF/uncOptim/libuncoptim.a 
