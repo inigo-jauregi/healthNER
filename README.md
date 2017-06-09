@@ -3,8 +3,11 @@ This is the code used for the research in our paper "Recurrent neural networks w
 It is a little scattered, but fully functioning.
 
 There are three main files:
+
 1.CRF
+
 2.LSTM
+
 3.LSTM_plus_feature_engineering
 
 # CRF:
