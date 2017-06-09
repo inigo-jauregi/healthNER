@@ -1,0 +1,2 @@
+This is an application project that uses the shared hCRF library.
+This library has been included in this solution for easy compilation. The hCRF library project include the external pre-compiled libraries asa, cgDescent, lbfgs, owlqn and uncOptim. 
