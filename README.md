@@ -2,13 +2,13 @@
 This is the code used for the research in our paper "Recurrent neural networks with specialized word embeddings for health-domain named-entity recognition".
 It is a little scattered, but fully functioning.
 
-There are three main files:
+There code contains three main files:
 
 1.CRF
 
-2.LSTM
+2.Bidirectional_LSTM-CRF
 
-3.LSTM_plus_feature_engineering
+3.Bidirectional_LSTM-CRF_plus_feature_engineering
 
 *Due to the large size of the word embedding files, they have not been provided here. CommonCrawl embeddings are available in the oficial GloVe webpage. In order to obtain the specialized embeddings mentioned in the paper, you will need to request permission to access the MIMIC-III database, retrain Glove in that data, and concatenate this embedding with the CommonCrawl embeddings.
 
