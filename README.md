@@ -4,13 +4,13 @@ It is a little scattered, but fully functioning.
 
 There code contains three main files:
 
-1.CRF: This method is the file where we implement the Conditional Random Field (CRF) model which in the paper's results section has the same name (Do not confuse it with the prediction layer of the B-LSTM-CRF).
+1.__CRF__: This method is the file where we implement the Conditional Random Field (CRF) model which in the paper's results section has the same name (Do not confuse it with the prediction layer of the B-LSTM-CRF). It contains two main files. The HCRF2.0b open-source tool to train a CRF model and a set of files for data_preparation. Further description here.
 
-2.Bidirectional_LSTM-CRF
+2.__Bidirectional_LSTM-CRF__:
 
-3.Bidirectional_LSTM-CRF_plus_feature_engineering
+3.__Bidirectional_LSTM-CRF_plus_feature_engineering__:
 
-*Due to the large size of the word embedding files, they have not been provided here. CommonCrawl embeddings are available in the oficial GloVe webpage. In order to obtain the specialized embeddings mentioned in the paper, you will need to request permission to access the MIMIC-III database, retrain Glove in that data, and concatenate this embedding with the CommonCrawl embeddings.
+*Due to the large size of the word embedding files, they have not been provided here. CommonCrawl embeddings are available in the oficial GloVe webpage. In order to obtain the specialized embeddings used in the paper, you can contact: _ijauregi@cmcrc.com_.
 
 # CRF:
 It includes the data preparation files for the HCRF2.0b software to train a CRF model.
