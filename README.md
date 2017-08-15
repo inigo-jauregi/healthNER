@@ -4,7 +4,7 @@ It is a little scattered, but fully functioning.
 
 There code contains three main files:
 
-1.CRF
+1.CRF: This method is the file where we implement the Conditional Random Field (CRF) model which in the paper's results section has the same name (Do not confuse it with the prediction layer of the B-LSTM-CRF).
 
 2.Bidirectional_LSTM-CRF
 
