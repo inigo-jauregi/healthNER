@@ -7,9 +7,9 @@ It is a little scattered, but fully functioning.
 
 There code contains three main files:
 
-1.__CRF__: This is the file where we implement the Conditional Random Field (CRF) model which in the paper's results section has the same name (Do not confuse it with the prediction layer of the B-LSTM-CRF). It contains two main files. The HCRF2.0b open-source tool to train a CRF model and a set of files for data_preparation. Further description [here].
+1.__CRF__: This is the file where we implement the Conditional Random Field (CRF) model which in the paper's results section has the same name (Do not confuse it with the prediction layer of the B-LSTM-CRF). It contains two main files. The HCRF2.0b open-source tool to train a CRF model and a set of files for data_preparation. Further description in the [here] file.
 
-2.__Bidirectional_LSTM-CRF__: This is the file where we implement the Bidirectional LSTM and the Bidirectional-LSTM-CRF models which in the paper's result section have the same name. The code is created following the code of [Bidirectional-LSTM-CRF-for-Clinical-Concept-Extraction]. Further description in the [Bidirectional_LSTM-CRF].
+2.__Bidirectional_LSTM-CRF__: This is the file where we implement the Bidirectional LSTM and the Bidirectional-LSTM-CRF models which in the paper's result section have the same name. The code is created following the code of [Bidirectional-LSTM-CRF-for-Clinical-Concept-Extraction]. Further description in the [Bidirectional_LSTM-CRF] file.
 
 3.__Bidirectional_LSTM-CRF_plus_feature_engineering__:
 
@@ -82,5 +82,6 @@ OUTPUT:
 
 
 
-[here]: https://github.com/ijauregiCMCRC/healthNER/tree/master/CRF
+[CRF]: https://github.com/ijauregiCMCRC/healthNER/tree/master/CRF
 [Bidirectional-LSTM-CRF-for-Clinical-Concept-Extraction]: https://github.com/raghavchalapathy/Bidirectional-LSTM-CRF-for-Clinical-Concept-Extraction
+[Bidirectional_LSTM-CRF]: https://github.com/ijauregiCMCRC/healthNER/tree/master/Bidirectional_LSTM-CRF
