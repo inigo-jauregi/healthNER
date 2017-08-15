@@ -1,4 +1,7 @@
 # healthNER
+
+NOTE!! The repository is having changes.
+
 This is the code used for the research in our paper "Recurrent neural networks with specialized word embeddings for health-domain named-entity recognition".
 It is a little scattered, but fully functioning.
 
