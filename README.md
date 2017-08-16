@@ -15,17 +15,6 @@ There code contains three main files:
 
 *Due to the large size of the word embedding files, they have not been provided here. CommonCrawl embeddings are available in the oficial GloVe webpage. In order to obtain the specialized embeddings used in the paper, you can contact: _ijauregi@cmcrc.com_.
 
-# CRF:
-It includes the data preparation files for the HCRF2.0b software to train a CRF model.
-
-First, we need to create dataTrain.csv, dataTest.csv (using data_CRF_file_creation.py), labelsTrain.csv and 
-labelsTest.csv (using tag_CRF_file_creation.py) with the data preparation python code.
-
-Second, we train and test the CRF model with those files (see the HCRF guideline).
-
-Finally, we obtain the results.txt file from the HCRF software. We convert results.txt to a "conlleval" evaluation format 
-(data_conll_preparation.py) and evaluate using the conlleval.pl perl file.
-
 # LSTM:
 It includes the B-LSTM and the B-LSTM-CRF models with the character embedding and the pre-trained word embeddings.
 Run the train.py file to train and test the model. Previously, select all the input and output parameters required.
