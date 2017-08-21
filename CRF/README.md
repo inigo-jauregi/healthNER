@@ -4,7 +4,7 @@ The CRF model is the baseline conventional model of the paper. We use it to have
 
 In order to reproduce the results obtained with the CRF, we need to follow the workflow presented in the image below:
 
-![crf_flowchart](https://user-images.githubusercontent.com/23091295/29344532-e7a7a426-827b-11e7-9cae-d6870c8fbdd5.jpg)
+![crf_flowchart](https://user-images.githubusercontent.com/23091295/29503550-dc66106c-867b-11e7-8d74-ed61e56e389e.jpg)
 
 __1. data_preparation__: First, the training and test data needs to be prepared in the HCRF format with the data_preparation code. The file contains two main '.py' files for that: _data_CRF_file_creation.py_ and _using tag_CRF_file_creation.py_. 
 
