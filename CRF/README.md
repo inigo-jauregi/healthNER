@@ -6,9 +6,9 @@ In order to reproduce the results obtained with the CRF, we need to follow the w
 
 ![crf_flowchart](https://user-images.githubusercontent.com/23091295/29344532-e7a7a426-827b-11e7-9cae-d6870c8fbdd5.jpg)
 
-First, the training and test data needs to be prepared in the HCRF format with the data_preparation code. The file contains two main '.py' files for that: _data_CRF_file_creation.py_ and _using tag_CRF_file_creation.py_. 
+1. First, the training and test data needs to be prepared in the HCRF format with the data_preparation code. The file contains two main '.py' files for that: _data_CRF_file_creation.py_ and _using tag_CRF_file_creation.py_. 
 
-The firs file (_data_CRF_file_creation.py_), creates a file of the features for the CRF model in the following format:
+The first file (_data_CRF_file_creation.py_), creates the files of features (dataTrain.csv and dataTest.csv) for the CRF model in the following format:
 
 _3    2    %first sequence has 2 tokens (each token(t) has 3 features(f))_
 
@@ -18,7 +18,17 @@ _0.8    0.9    %f2 of t1, f2 of t2_
 
 _0.4    0.6    %f3 of t1, f3 of t2__
 
-to create the input files for the CRF model in a specific format dataTrain.csv, dataTest.csv (using , labelsTrain.csv and labelsTest.csv () with the data_preparation python code. 
+The second file (_tag_CRF_file_creation.py_), creates the files of labels (labelTrain.csv and labelTest.csv) to train and test the CRF model in the following format:
+
+_1 5 %first sequence has 5 tokens and only 1 dimension (time)_
+
+_4 2 1 1 1 %labels of the 5 tokens_
+
+_1 7 %second sequence has 7 tokens and only 1 dimension (time)_
+
+_1 1 1 4 7 9 1 %labels of the 7 tokens_
+
+At the end of the data_preparation we must have created 4 files: _dataTrain.csv_, _labelsTrain.csv_, _dataTest.csv_ and _labelsTest.csv_.
 
 Second, we train and test the CRF model with those files (see the HCRF guideline).
 
