@@ -3,7 +3,7 @@
 This is the code used for the research in our paper "_Recurrent neural networks with specialized word embeddings for health-domain named-entity recognition_".
 It is a little scattered, but fully functioning.
 
-There code contains three main files:
+The code contains three main files:
 
 1.__CRF__: This is the file where we implement the Conditional Random Field (CRF) model which in the paper's results section has the same name (Do not confuse it with the prediction layer of the B-LSTM-CRF). It contains two main files. The HCRF2.0b open-source tool to train a CRF model and a set of files for data_preparation. Further description in the [CRF] file.
 
