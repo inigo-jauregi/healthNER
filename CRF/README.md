@@ -36,7 +36,10 @@ __2. train CRF model__: Second, the CRF model is trained with the HCRF toolkit. 
 ./hcrfTest -t -d dataTrain.csv -l labelsTrain.csv -m model.txt -T -D dataTest.csv -L labelsTest.csv -r results.txt -c stats.txt -f features.txt -a crf -h 3 -P 4 -p 4 -i 10 -w 1
 ```
 
+After the training, the model will be stored in the file model.txt, and after the test the predictions will be stored in the results.txt file. For further information about the HCRF tool read the [guideline].
 
 __3. test and evaluate model__: Finally, we obtain the results.txt file from the HCRF software. We convert results.txt to a "conlleval" evaluation format (data_conll_preparation.py) and evaluate using the conlleval.pl perl file.
+
+[guideline]: 
 
 
