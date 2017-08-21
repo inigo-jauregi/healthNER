@@ -6,7 +6,7 @@ In order to reproduce the results obtained with the CRF, we need to follow the w
 
 ![crf_flowchart](https://user-images.githubusercontent.com/23091295/29344532-e7a7a426-827b-11e7-9cae-d6870c8fbdd5.jpg)
 
-1. First, the training and test data needs to be prepared in the HCRF format with the data_preparation code. The file contains two main '.py' files for that: _data_CRF_file_creation.py_ and _using tag_CRF_file_creation.py_. 
+__1. data_preparation__: First, the training and test data needs to be prepared in the HCRF format with the data_preparation code. The file contains two main '.py' files for that: _data_CRF_file_creation.py_ and _using tag_CRF_file_creation.py_. 
 
 The first file (_data_CRF_file_creation.py_), creates the files of features (dataTrain.csv and dataTest.csv) for the CRF model in the following format:
 
@@ -30,8 +30,8 @@ _1 1 1 4 7 9 1 %labels of the 7 tokens_
 
 At the end of the data_preparation we must have created 4 files: _dataTrain.csv_, _labelsTrain.csv_, _dataTest.csv_ and _labelsTest.csv_.
 
-Second, we train and test the CRF model with those files (see the HCRF guideline).
+__2. HCRF__: Second, we train and test the CRF model with those files (see the HCRF guideline).
 
-Finally, we obtain the results.txt file from the HCRF software. We convert results.txt to a "conlleval" evaluation format (data_conll_preparation.py) and evaluate using the conlleval.pl perl file.
+__3. test and evaluation__: Finally, we obtain the results.txt file from the HCRF software. We convert results.txt to a "conlleval" evaluation format (data_conll_preparation.py) and evaluate using the conlleval.pl perl file.
 
 
