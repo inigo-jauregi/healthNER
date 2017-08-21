@@ -38,6 +38,6 @@ __2. train and test the CRF model__: Second, the CRF model is trained with the H
 
 After the training, the model will be stored in the file model.txt, and after the test the predictions will be stored in the results.txt file. For further information about the HCRF tool read the [guideline].
 
-__3. evaluate the model__: Finally, we obtain the results.txt file from the HCRF software. We convert results.txt to a "conlleval" evaluation format (data_conll_preparation.py) and evaluate using the conlleval.pl perl file.
+__3. evaluate the model__: Finally, we need to evaluate the predictions made by the CRF model and stored in the results.txt file with the conlleval evaluation script, which is a "strict" evaluation (for more information read our paper). First, we convert results.txt to a "conlleval" evaluation format with the data_conll_preparation.py file (inside the data_preparation folder). Finally, we evaluate the converted results using the conlleval.pl perl file. These are the final results of the model.
 
 [guideline]: https://sourceforge.net/projects/hcrf/
