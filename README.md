@@ -2,7 +2,7 @@
 
 NOTE!! The repository is having changes.
 
-This is the code used for the research in our paper "Recurrent neural networks with specialized word embeddings for health-domain named-entity recognition".
+This is the code used for the research in our paper "_Recurrent neural networks with specialized word embeddings for health-domain named-entity recognition_".
 It is a little scattered, but fully functioning.
 
 There code contains three main files:
