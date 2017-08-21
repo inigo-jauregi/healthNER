@@ -33,7 +33,7 @@ At the end of the data_preparation we must have created 4 files: _dataTrain.csv_
 __2. train CRF model__: Second, the CRF model is trained with the HCRF toolkit. The HCRF receives the previously generated files in the correct format and with the following command, it trains and tests a CRF model:
 
 ```
-kakafuti
+./hcrfTest -t -d dataTrain.csv -l labelsTrain.csv -m model.txt -T -D dataTest.csv -L labelsTest.csv -r results.txt -c stats.txt -f features.txt -a crf -h 3 -P 4 -p 4 -i 10 -w 1
 ```
 
 
