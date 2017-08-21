@@ -10,13 +10,13 @@ First, the training and test data needs to be prepared in the HCRF format with t
 
 The firs file (_data_CRF_file_creation.py_), creates a file of the features for the CRF model in the following format:
 
-3   2   %first sequence has 2 tokens (each token(t) has 3 features(f))
+3    2    %first sequence has 2 tokens (each token(t) has 3 features(f))
 
-0.1   0.8   %f1 of t1, f1 of t2
+0.1    0.8    %f1 of t1, f1 of t2
 
-0.8   0.9   %f2 of t1, f2 of t2
+0.8    0.9    %f2 of t1, f2 of t2
 
-0.4   0.6   %f3 of t1, f3 of t2
+0.4    0.6    %f3 of t1, f3 of t2
 
 to create the input files for the CRF model in a specific format dataTrain.csv, dataTest.csv (using , labelsTrain.csv and labelsTest.csv () with the data_preparation python code. 
 
