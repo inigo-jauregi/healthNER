@@ -30,8 +30,10 @@ _1 1 1 4 7 9 1 %labels of the 7 tokens_
 
 At the end of the data_preparation we must have created 4 files: _dataTrain.csv_, _labelsTrain.csv_, _dataTest.csv_ and _labelsTest.csv_.
 
-__2. HCRF__: Second, we train and test the CRF model with those files (see the HCRF guideline).
+__2. train CRF model__: Second, the CRF model is trained with the HCRF toolkit. The HCRF receives the previously generated files in the correct format and with the following command, it trains and tests a CRF model:
 
-__3. test and evaluation__: Finally, we obtain the results.txt file from the HCRF software. We convert results.txt to a "conlleval" evaluation format (data_conll_preparation.py) and evaluate using the conlleval.pl perl file.
+
+
+__3. test and evaluate model__: Finally, we obtain the results.txt file from the HCRF software. We convert results.txt to a "conlleval" evaluation format (data_conll_preparation.py) and evaluate using the conlleval.pl perl file.
 
 
