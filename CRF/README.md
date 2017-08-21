@@ -32,6 +32,9 @@ At the end of the data_preparation we must have created 4 files: _dataTrain.csv_
 
 __2. train CRF model__: Second, the CRF model is trained with the HCRF toolkit. The HCRF receives the previously generated files in the correct format and with the following command, it trains and tests a CRF model:
 
+```
+kakafuti
+```
 
 
 __3. test and evaluate model__: Finally, we obtain the results.txt file from the HCRF software. We convert results.txt to a "conlleval" evaluation format (data_conll_preparation.py) and evaluate using the conlleval.pl perl file.
