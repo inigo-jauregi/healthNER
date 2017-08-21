@@ -1,7 +1,5 @@
 # healthNER
 
-NOTE!! The repository is having changes.
-
 This is the code used for the research in our paper "_Recurrent neural networks with specialized word embeddings for health-domain named-entity recognition_".
 It is a little scattered, but fully functioning.
 
@@ -15,60 +13,7 @@ There code contains three main files:
 
 *Due to the large size of the word embedding files, they have not been provided here. CommonCrawl embeddings are available in the oficial GloVe webpage. In order to obtain the specialized embeddings used in the paper, you can contact: _ijauregi@cmcrc.com_.
 
-# LSTM:
-It includes the B-LSTM and the B-LSTM-CRF models with the character embedding and the pre-trained word embeddings.
-Run the train.py file to train and test the model. Previously, select all the input and output parameters required.
-
-INPUT:
-
--train/dev/test files
-
--pre-embeddings
-
--char-embedding
-
--crf final layer (yes or no)
-
--(the remaining inputs were left to the default values of the original package)
-
-OUTPUT:
-
--model name
-
--experiment description file
-
--test file
-
--dev file
-
-# LSTM_plus_feature_engineering:
-It includes the same model as the LSTM but, in addition, we can select to add conventional feature engineering to the feature vector.
-Run the train.py file to train and test the model. Previously, select all the input and output parameters required.
-
-INPUT:
-
--train_plus_features/dev_plus_features/test_plus_features files (with precomputed features)
-
--pre-embeddings
-
--char-embedding
-
--crf final layer (yes or no)
-
--conventional feature engineering
-
--(the remaining inputs were left to the default values of the original package)
-
-OUTPUT:
-
--model name
-
--experiment description file
-
--test file
-
--dev file
-
+__NOTE:_ 
 
 
 [CRF]: https://github.com/ijauregiCMCRC/healthNER/tree/master/CRF
