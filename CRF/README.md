@@ -44,6 +44,6 @@ __3. evaluate the model__: Finally, we need to evaluate the predictions made by 
 perl conlleval < converted_results.txt > final_results.txt
 ```
 
-These are the final results of the model.
+The _final_results.txt_ are the ones published in the paper.
 
 [guideline]: https://sourceforge.net/projects/hcrf/
