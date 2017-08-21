@@ -1,6 +1,6 @@
-## NER Tagger
+## Bidirectional_LSTM-CRF_plus_feature_engineering
 
-NER Tagger is an implementation of a Named Entity Recognizer that obtains state-of-the-art performance in NER on the 4 CoNLL datasets (English, Spanish, German and Dutch) without resorting to any language-specific knowledge or resources such as gazetteers. Details about the model can be found at: http://arxiv.org/abs/1603.01360
+This code is almost identical to the one presented in the [Bidirectional_LSTM-CRF file]. The only difference is that it gives the option to include  the hand-crafted features presented in the paper (further description below in the __Train a model__ section.
 
 
 ## Initial setup
@@ -35,3 +35,6 @@ There are many parameters you can tune (CRF, dropout rate, embedding dimension, 
 ```
 
 Input files for the training script have to follow the same format than the CoNLL2003 sharing task: each word has to be on a separate line, and there must be an empty line after each sentence. A line must contain at least 2 columns, the first one being the word itself, the last one being the named entity. It does not matter if there are extra columns that contain tags or chunks in between. Tags have to be given in the IOB format (it can be IOB1 or IOB2).
+
+
+[Bidirectional_LSTM-CRF file]: https://github.com/ijauregiCMCRC/healthNER/tree/master/Bidirectional_LSTM-CRF
