@@ -40,6 +40,4 @@ After the training, the model will be stored in the file model.txt, and after th
 
 __3. test and evaluate model__: Finally, we obtain the results.txt file from the HCRF software. We convert results.txt to a "conlleval" evaluation format (data_conll_preparation.py) and evaluate using the conlleval.pl perl file.
 
-[guideline]: 
-
-
+[guideline]: https://sourceforge.net/projects/hcrf/
