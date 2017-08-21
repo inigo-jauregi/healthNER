@@ -39,7 +39,7 @@ __Note!__ As we explain in the introduction of this page, the only difference be
 ```
 --morph_features_dim 1 --semantic_features_dim 1
 ```
-Note that in the paper we have not make this distinction. The reason behind is that we have always used both features together. If you want to use the features, you only need to set that option to 1.
+Note that in the paper we have not make this distinction. The reason behind is that we have always used both features together. If you want to use the features, you only need to set that option to 1 (the features are already in the train, dev and test files).
 
 Input files for the training script have to follow the same format than the CoNLL2003 sharing task: each word has to be on a separate line, and there must be an empty line after each sentence. A line must contain at least 2 columns, the first one being the word itself, the last one being the named entity. It does not matter if there are extra columns that contain tags or chunks in between. Tags have to be given in the IOB format (it can be IOB1 or IOB2).
 
