@@ -13,7 +13,7 @@ There code contains three main files:
 
 *Due to the large size of the word embedding files, they have not been provided here. CommonCrawl embeddings are available in the oficial GloVe webpage. In order to obtain the specialized embeddings used in the paper, you can contact: _ijauregi@cmcrc.com_.
 
-__NOTE:_ 
+__NOTE:__ The commit number of the code used in the paper is e5dc2a0. 
 
 
 [CRF]: https://github.com/ijauregiCMCRC/healthNER/tree/master/CRF
