@@ -11,7 +11,7 @@ The code contains three main files (These three files are independent from each 
 
 3.__Bidirectional_LSTM-CRF_plus_feature_engineering__: This is identical to the [Bidirectional_LSTM-CRF] with the only extra option of addind the hand-crafted features described in the paper. Further description in the [Bidirectional_LSTM-CRF_plus_feature_engineering] file.
 
-*Due to the large size of the word embedding files, they have not been provided here. CommonCrawl embeddings are available in the oficial GloVe webpage. In order to obtain the specialized embeddings used in the paper, you can contact: _ijauregi@cmcrc.com_.
+*The specialized embeddings used in the paper are available _here_.
 
 __NOTE:__ The commit number of the code used in the paper is e5dc2a0. 
 
@@ -20,3 +20,4 @@ __NOTE:__ The commit number of the code used in the paper is e5dc2a0.
 [Bidirectional-LSTM-CRF-for-Clinical-Concept-Extraction]: https://github.com/raghavchalapathy/Bidirectional-LSTM-CRF-for-Clinical-Concept-Extraction
 [Bidirectional_LSTM-CRF]: https://github.com/ijauregiCMCRC/healthNER/tree/master/Bidirectional_LSTM-CRF
 [Bidirectional_LSTM-CRF_plus_feature_engineering]: https://github.com/ijauregiCMCRC/healthNER/tree/master/Bidirectional_LSTM-CRF_plus_feature_engineering
+[here]: https://drive.google.com/file/d/10q44E0tHHvIjeuv1JPis0Y3MaVMso5ZM/view?usp=sharing
