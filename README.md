@@ -11,7 +11,7 @@ The code contains three main files (These three files are independent from each 
 
 3.__Bidirectional_LSTM-CRF_plus_feature_engineering__: This is identical to the [Bidirectional_LSTM-CRF] with the only extra option of addind the hand-crafted features described in the paper. Further description in the [Bidirectional_LSTM-CRF_plus_feature_engineering] file.
 
-*The specialized embeddings used in the paper are available _here_.
+*The specialized embeddings used in the paper are available [here].
 
 __NOTE:__ The commit number of the code used in the paper is e5dc2a0. 
 
